@@ -1,7 +1,15 @@
-import React from 'react'
+import React from 'react';
+import HeroSection from './Herosection';
+import About from './About';
+import Classes from '../Classes';
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <HeroSection />
+      <About />
+    </>
+  );
+};
+
+export default Home;
