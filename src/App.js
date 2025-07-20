@@ -8,6 +8,8 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Admission from './Admission';
 import Classes from './Classes';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (
